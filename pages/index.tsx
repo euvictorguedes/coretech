@@ -9,9 +9,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <h1>Hello World!</h1>
-      </main>
+      <h1 className="text-3xl font-bold font-montserrat">
+        coretech<span className="text-red-500">.</span>
+      </h1>
     </>
   )
 }
