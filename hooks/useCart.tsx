@@ -80,7 +80,7 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
       toast({
         status: 'success',
         title: 'Produto adicionado ao carrinho',
-        duration: 600,
+        duration: 700,
         position: 'bottom-right',
       })
     } catch {

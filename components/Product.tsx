@@ -32,7 +32,7 @@ export function Product({ product, onClick }: ProductProps) {
         >
           {product.promoPrice && (
             <Badge
-              colorScheme="red"
+              colorScheme="purple"
               fontSize="lg"
               position="absolute"
               top={0}
