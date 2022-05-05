@@ -1,32 +1,32 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { useEffect, useState } from 'react'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
+
+import { Product } from '../components/Product'
+import { useCart } from '../hooks/useCart'
 
 import { api } from '../services/api'
 import { formatPrice } from '../util/format'
-
-type Product = {
-  id: number
-  title: string
-  price: number
-  images: string[]
-}
-
-interface ProductFormatted extends Product {
-  priceFormatted: string
-}
+import { Product as ProductType, ProductFormatted } from '../types'
 
 const Home: NextPage = () => {
+  const { addProduct } = useCart()
   const [products, setProducts] = useState<ProductFormatted[]>([])
 
   useEffect(() => {
     async function loadProducts() {
-      const response = await api.get<Product[]>('/products')
+      const response = await api.get<ProductType[]>('/products')
 
-      const data = response.data.map((product) => ({
-        ...product,
-        priceFormatted: formatPrice(product.price),
-      }))
+      const data = response.data
+        .map((product) => ({
+          ...product,
+          priceFormatted: formatPrice(product.price),
+          promoPriceFormatted: product.promoPrice
+            ? formatPrice(product.promoPrice)
+            : undefined,
+        }))
+        .splice(0, 8) // Apenas os 8 primeiros items
 
       setProducts(data)
     }
@@ -34,16 +34,29 @@ const Home: NextPage = () => {
     loadProducts()
   }, [])
 
+  function handleAddProduct(id: number) {
+    addProduct(id)
+  }
+
   return (
     <>
       <Head>
-        <title>coretech</title>
+        <title>Página Inicial | coretech</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className="text-3xl font-bold font-montserrat">
-        coretech<span className="text-red-500">.</span>
-      </h1>
+      <Container maxW="container.xl" my={8}>
+        <Heading size="xl">Catálogo</Heading>
+        <SimpleGrid columns={[1, null, 2, null, 4]} spacing={6} mt={6}>
+          {products.map((product) => (
+            <Product
+              key={product.id}
+              product={product}
+              onClick={handleAddProduct}
+            />
+          ))}
+        </SimpleGrid>
+      </Container>
     </>
   )
 }

@@ -2,93 +2,64 @@
   "products": [
     {
       "id": 1,
-      "title": "Gabinete Bluecase BG-014",
+      "title": "Gabinete purplecase BG-014",
       "price": 179.9,
-      "images": [
-        "https://images.kabum.com.br/produtos/fotos/99359/gabinete-gamer-bluecase-bg-014-sem-fonte-usb-3-0-preto-com-lateral-em-acrilico-bg014gcase__1544093509_gg.jpg",
-        "https://images.kabum.com.br/produtos/fotos/99359/gabinete-gamer-bluecase-bg-014-sem-fonte-usb-3-0-preto-com-lateral-em-acrilico-bg014gcase_1544093506_gg.jpg"
-      ]
+      "image": "https://images.kabum.com.br/produtos/fotos/99359/gabinete-gamer-bluecase-bg-014-sem-fonte-usb-3-0-preto-com-lateral-em-acrilico-bg014gcase__1544093509_gg.jpg"
     },
     {
       "id": 2,
       "title": "Processador AMD Ryzen 9 3950X",
       "price": 5099.9,
-      "images": [
-        "https://images.kabum.com.br/produtos/fotos/108893/processador-amd-ryzen-9-3950x-cache-70mb-4700mhz-am4-100-100000051wof_1576757358_gg.jpg",
-        "https://images.kabum.com.br/produtos/fotos/108893/processador-amd-ryzen-9-3950x-cache-64mb-4700mhz-am4-100-100000051wof_1588688595_gg.jpg"
-      ]
+      "promoPrice": 4079.92,
+      "image": "https://images.kabum.com.br/produtos/fotos/108893/processador-amd-ryzen-9-3950x-cache-70mb-4700mhz-am4-100-100000051wof_1576757358_gg.jpg"
     },
     {
       "id": 3,
       "title": "Cooler RGB C3Tech 120mm",
       "price": 26.9,
-      "images": [
-        "https://images.kabum.com.br/produtos/fotos/138989/cooler-fan-c3tech-120mm-led-de-5-cores-preto-f7-l120m_1611003012_gg.jpg",
-        "https://images.kabum.com.br/produtos/fotos/138989/cooler-fan-c3tech-120mm-led-de-5-cores-preto-f7-l120m_1611003013_gg.jpg"
-      ]
+      "image": "https://images.kabum.com.br/produtos/fotos/138989/cooler-fan-c3tech-120mm-led-de-5-cores-preto-f7-l120m_1611003012_gg.jpg"
     },
     {
       "id": 4,
       "title": "SSD Kingston 480GB",
       "price": 459.9,
-      "images": [
-        "https://images.kabum.com.br/produtos/fotos/85198/85198_index_gg.jpg",
-        "https://images.kabum.com.br/produtos/fotos/85198/ssd-kingston-a400-480gb-sata-leitura-500mb-s-gravacao-450mb-s-sa400s37-480g_1629133546_gg.jpg"
-      ]
+      "image": "https://images.kabum.com.br/produtos/fotos/85198/85198_index_gg.jpg"
     },
     {
       "id": 5,
       "title": "Placa de Vídeo Zotac RTX 3060",
       "price": 4299.9,
-      "images": [
-        "https://images.kabum.com.br/produtos/fotos/166104/placa-de-video-zotac-nvidia-geforce-rtx-3060ti-twin-edge-lhr-8gb-14-0-gbps-gddr6-dlss-ray-tracing-zt-a30610e-10mlhr_1623326520_gg.jpg",
-        "https://images.kabum.com.br/produtos/fotos/166104/placa-de-video-zotac-nvidia-geforce-rtx-3060ti-twin-edge-lhr-8gb-14-0-gbps-gddr6-dlss-ray-tracing-zt-a30610e-10mlhr_1623326525_gg.jpg"
-      ]
+      "image": "https://images.kabum.com.br/produtos/fotos/166104/placa-de-video-zotac-nvidia-geforce-rtx-3060ti-twin-edge-lhr-8gb-14-0-gbps-gddr6-dlss-ray-tracing-zt-a30610e-10mlhr_1623326520_gg.jpg"
     },
     {
       "id": 6,
       "title": "Placa Mãe ROG STRIX Z590-E GAMING",
       "price": 2899.9,
-      "images": [
-        "https://images.kabum.com.br/produtos/fotos/151559/placa-mae-asus-rog-strix-z590-e-gaming-wifi-intel-socket-lga1200-atx-ddr4-rgb-aura-sync-90mb1640-m0eay0_1615387462_gg.jpg",
-        "https://images.kabum.com.br/produtos/fotos/151559/placa-mae-asus-rog-strix-z590-e-gaming-wifi-intel-socket-lga1200-atx-ddr4-rgb-aura-sync-90mb1640-m0eay0_1615387463_gg.jpg"
-      ]
+      "image": "https://images.kabum.com.br/produtos/fotos/151559/placa-mae-asus-rog-strix-z590-e-gaming-wifi-intel-socket-lga1200-atx-ddr4-rgb-aura-sync-90mb1640-m0eay0_1615387462_gg.jpg"
     },
     {
       "id": 7,
       "title": "Memória 8GB Spectrix D45G RGB",
       "price": 299.9,
-      "images": [
-        "https://images.kabum.com.br/produtos/fotos/194492/memoria-xpg-spectrix-d45g-rgb-8gb-3600mhz-ddr4-cl18-preta-ax4u36008g18i-cbkd45g_1632507273_gg.jpg",
-        "https://images.kabum.com.br/produtos/fotos/151559/placa-mae-asus-rog-strix-z590-e-gaming-wifi-intel-socket-lga1200-atx-ddr4-rgb-aura-sync-90mb1640-m0eay0_1615387463_gg.jpg"
-      ]
+      "image": "https://images.kabum.com.br/produtos/fotos/194492/memoria-xpg-spectrix-d45g-rgb-8gb-3600mhz-ddr4-cl18-preta-ax4u36008g18i-cbkd45g_1632507273_gg.jpg"
     },
     {
       "id": 8,
       "title": "Fonte Sharkoon SHP Bronze 500W",
-      "price": 299.9,
-      "images": [
-        "https://images.kabum.com.br/produtos/fotos/109899/fonte-sharkoon-shp-bronze-500w-80-plus-bronze-shp-bronze-500w_1587050597_gg.jpg",
-        "https://images.kabum.com.br/produtos/fotos/109899/fonte-sharkoon-shp-bronze-500w-80-plus-bronze-shp-bronze-500w_1587050596_gg.jpg"
-      ]
+      "price": 379.9,
+      "image": "https://images.kabum.com.br/produtos/fotos/109899/fonte-sharkoon-shp-bronze-500w-80-plus-bronze-shp-bronze-500w_1587050597_gg.jpg"
     },
     {
       "id": 9,
       "title": "Monitor Gamer Acer 23.8' LED",
       "price": 1299.9,
-      "images": [
-        "https://images.kabum.com.br/produtos/fotos/140677/monitor-gamer-acer-23-8-ka242y-75hz-1ms-led-full-hd-hdmi-vga-audio-amd-radeon-freesync-zero-frame-um-qx2aa-a07_1611145558_gg.jpg",
-        "https://images.kabum.com.br/produtos/fotos/140677/monitor-gamer-acer-23-8-ka242y-75hz-1ms-led-full-hd-hdmi-vga-audio-amd-radeon-freesync-zero-frame-um-qx2aa-a07_1611145556_gg.jpg"
-      ]
+      "image": "https://images.kabum.com.br/produtos/fotos/140677/monitor-gamer-acer-23-8-ka242y-75hz-1ms-led-full-hd-hdmi-vga-audio-amd-radeon-freesync-zero-frame-um-qx2aa-a07_1611145558_gg.jpg"
     },
     {
       "id": 10,
       "title": "Cabo Husky Preto HDMI 2.0",
       "price": 8.9,
-      "images": [
-        "https://images.kabum.com.br/produtos/fotos/114554/cabo-hdmi-2-0-husky-1-5-metros-_1627324377_gg.jpg",
-        "https://images.kabum.com.br/produtos/fotos/114554/cabo-hdmi-2-0-husky-1-5-metros-_1627324376_gg.jpg"
-      ]
+      "image": "https://images.kabum.com.br/produtos/fotos/114554/cabo-hdmi-2-0-husky-1-5-metros-_1627324377_gg.jpg"
     }
   ]
 }
