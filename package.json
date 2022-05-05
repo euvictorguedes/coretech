@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "server": "json-server server.json --port=3333"
+    "server": "json-server db.json --port=3333"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.8.8",
